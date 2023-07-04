@@ -72,4 +72,7 @@ format: %Y-%m-%dT%H:%M:%S.%f (ex: 2017-06-14T22:31:03.285259)
 you can use isoformat() of datetime object
 This method will be the first piece of the serialization/deserialization process: create a dictionary representation with “simple object type” of our BaseModel
 ```
+## **AUTHORS** :black_nib:
 
+* **Queise Carvalho de Oliveira** - [Queise Carvalho de Oliveira](https://github.com/Qcarvalhooliveira)
+* **Arez Ait Kettout** - [Arez Ait Kettout](https://github.com/Wayzer2318)
