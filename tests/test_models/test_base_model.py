@@ -10,11 +10,12 @@ class TestBaseModel(unittest.TestCase):
     """Test cases for base_model module and BaseModel class"""
     @classmethod
     def setUpClass(cls):
-        """ set up base class"""
+        """Set up the environment for unit tests"""
         cls.base = BaseModel()
 
     @classmethod
     def teardown(cls):
+        """Clean up the environment after executing unit tests"""
         del cls.base
 
     def test_pep8_conformance_test_base_model(self):
