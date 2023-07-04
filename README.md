@@ -1,5 +1,5 @@
 # **AirBnB clone - The console** :computer:
-![This is an ima](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png)
+![This is an image](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png)
 
 ## **Description** :speech_balloon:
 
