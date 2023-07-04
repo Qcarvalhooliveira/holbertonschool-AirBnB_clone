@@ -1,5 +1,5 @@
 # **AirBnB clone - The console** :computer:
-![This is an image](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230704%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230704T125621Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=9ab128ccf03870074d4f43df6cef3244b889b8236c4e8834c764198be37638c8)
+![This is an ima](https://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png)
 
 ## **Description** :speech_balloon:
 
