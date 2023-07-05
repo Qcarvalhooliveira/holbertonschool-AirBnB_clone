@@ -5,6 +5,9 @@ Module for the command interpreter
 import cmd
 from models.base_model import BaseModel
 from models import storage
+from models.user import User
+
+classes = {"BaseModel": BaseModel, "User": User}
 
 
 class HBNBCommand(cmd.Cmd):
