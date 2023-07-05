@@ -3,6 +3,9 @@
 
 import json
 from models.base_model import BaseModel
+from models.user import User
+
+classes = {"BaseModel": BaseModel, "User": User}
 
 
 class FileStorage:
