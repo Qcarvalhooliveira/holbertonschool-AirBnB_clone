@@ -7,6 +7,7 @@ import models
 
 time = "%Y-%m-%dT%H:%M:%S.%f"
 
+
 class BaseModel:
     """Class that defines all common attributes/methods for other classes"""
     def __init__(self, *args, **kwargs):
