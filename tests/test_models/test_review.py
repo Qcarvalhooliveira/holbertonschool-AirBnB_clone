@@ -31,10 +31,10 @@ class TestReview(unittest.TestCase):
         """
         Test if the attributes are correctly initialized with specific values
         """
-        review = Review(place_id="123", user_id="456", text="Good job!")
+        review = Review(place_id="123", user_id="456", text="Good place!")
         self.assertEqual(review.place_id, "123")
         self.assertEqual(review.user_id, "456")
-        self.assertEqual(review.text, "Good job!")
+        self.assertEqual(review.text, "Good place!")
 
 
 if __name__ == '__main__':
