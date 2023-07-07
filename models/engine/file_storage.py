@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """Module for class FileStorage"""
-
 import json
 from models.base_model import BaseModel
 from models.user import User
@@ -43,7 +42,7 @@ class FileStorage:
             with open(self.__file_path, encoding='utf-8') as myFile:
                 json_obj = json.load(myFile)
             for key, value in json_obj.items():
-                    name = classes[value["__class__"]](**value)
-                    self.__objects[key] = name
+                name = classes[value["__class__"]](**value)
+                self.__objects[key] = name
         except FileNotFoundError:
             pass
