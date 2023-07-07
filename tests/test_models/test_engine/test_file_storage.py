@@ -97,3 +97,7 @@ class TestFileStorage(unittest.TestCase):
         self.assertTrue(storage.all()[key1] is not None)
         with self.assertRaises(KeyError):
             storage.all()[" "]
+
+
+if __name__ == '__main__':
+    unittest.main()
