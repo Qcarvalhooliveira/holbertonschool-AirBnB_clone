@@ -37,20 +37,20 @@ class FileStorage:
         with open(self.__file_path, 'w') as myFile:
             json.dump(new_json, myFile)
 
-   def reload(self):
-    """
-    Deserializes the JSON file to __objects
-    """
-    try:
-        with open(self.__file_path, 'r') as file:
-            json_data = file.read()
-            object_dict = json.loads(json_data)
+    def reload(self):
+        """
+        Deserializes the JSON file to __objects
+        """
+        try:
+            with open(self.__file_path, 'r') as file:
+                json_data = file.read()
+                object_dict = json.loads(json_data)
 
-        for key, value in object_dict.items():
-            class_name = value["__class__"]
-            cls = classes[class_name]
-            obj = cls(**value)
-            self.__objects[key] = obj
+            for key, value in object_dict.items():
+                class_name = value["__class__"]
+                cls = classes[class_name]
+                obj = cls(**value)
+                self.__objects[key] = obj
 
-    except FileNotFoundError:
-        pass
+        except FileNotFoundError:
+            pass
