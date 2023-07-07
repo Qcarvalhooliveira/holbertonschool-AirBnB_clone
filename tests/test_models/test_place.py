@@ -5,6 +5,9 @@ Unittest for place class
 import unittest
 from models.place import Place
 from models.base_model import BaseModel
+from models.user import User
+from models.city import City
+from models.amenity import Amenity
 
 
 class TestPlace(unittest.TestCase):
