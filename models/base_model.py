@@ -3,7 +3,6 @@
 
 import uuid
 from datetime import datetime
-from models import storage
 from models
 
 time = "%Y-%m-%dT%H:%M:%S.%f"
