@@ -4,7 +4,7 @@
 import uuid
 from datetime import datetime
 from models import storage
-from models.engine.file_storage import FileStorage
+from models
 
 time = "%Y-%m-%dT%H:%M:%S.%f"
 
