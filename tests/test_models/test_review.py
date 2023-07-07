@@ -5,6 +5,8 @@ Unittest for Review class
 import unittest
 from models.review import Review
 from models.base_model import BaseModel
+from models.user import User
+from models.place import Place
 
 
 class TestReview(unittest.TestCase):
