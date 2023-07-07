@@ -5,6 +5,8 @@ Unittest for city class
 import unittest
 from models.city import City
 from models.base_model import BaseModel
+from models.state import State
+
 
 
 class TestCity(unittest.TestCase):
