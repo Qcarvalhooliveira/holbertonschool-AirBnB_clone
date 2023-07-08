@@ -1,6 +1,7 @@
 # **AirBnB clone - The console** :computer:
 ![This is an image](https://github.com/Qcarvalhooliveira/holbertonschool-AirBnB_clone/blob/39cdc489e35389209ad336fcb8b49857d0b21a76/65f4a1dd9c51265f49d0.png)
 
+
 ## **Description** :speech_balloon:
 
 * The AirBnB clone project starts now until… the end of the first year. The goal of the project is to deploy on your server a simple copy of the AirBnB website.
@@ -27,7 +28,7 @@ After 4 months, you will have a complete web application composed by:
 * What is **kwargs and how to use it
 * How to handle named arguments in a function
 
-# **Project Files**
+# **Project Files** :page_with_curl:
 
 |     Directories                |    Files                                                           |
 |--------------------------------|--------------------------------------------------------------------|
