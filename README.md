@@ -1,5 +1,5 @@
 # **AirBnB clone - The console** :computer:
-![This is an image](://s3.eu-west-3.amazonaws.com/hbtn.intranet/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4MYA5JM5DUTZGMZG%2F20230708%2Feu-west-3%2Fs3%2Faws4_request&X-Amz-Date=20230708T130426Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=aa5d4f19b286adf59750f2ad732609d7d98b80ada84ffdbfdfcb0f5504455500)
+![This is an image](https://github.com/Qcarvalhooliveira/holbertonschool-AirBnB_clone/blob/39cdc489e35389209ad336fcb8b49857d0b21a76/65f4a1dd9c51265f49d0.png)
 
 ## **Description** :speech_balloon:
 
@@ -279,8 +279,9 @@ Write a class User that inherits from BaseModel:
         * last_name: string - empty string
 Update FileStorage to manage correctly serialization and deserialization of User.
 
-Update your command interpreter (console.py) to allow show, create, destroy, update and all used with User.
-```
+Update your command interpreter (console.py) to allow show, create, destroy, update and all used with User.```
+
+
 
 * ## **9. More classes!**
 ```
@@ -313,8 +314,8 @@ Write all those classes that inherit from BaseModel:
         * Public class attributes:
             * place_id: string - empty string: it will be the Place.id
             * user_id: string - empty string: it will be the User.id
-            * text: string - empty string
-```
+            * text: string - empty string ```
+
 
 * ## **10. Console 1.0**
 ```
@@ -325,6 +326,6 @@ Update your command interpreter (console.py) to allow those actions: show, creat
 Enjoy your first console!
 ```
 
-## **AUTHORS** :black_nib:
+* ## **AUTHORS** :black_nib:
 
 * **Queise Carvalho de Oliveira** - [Queise Carvalho de Oliveira](https://github.com/Qcarvalhooliveira)
