@@ -27,7 +27,77 @@ After 4 months, you will have a complete web application composed by:
 * What is **kwargs and how to use it
 * How to handle named arguments in a function
 
-## **Tasks**
+# **Project Files**
+
+|     Directories                |    Files                                                           |
+|--------------------------------|--------------------------------------------------------------------|
+|models                          |__init__.py, amenity.py, base_model.py, city.py, place.py, review.py                                                    state.py, user.py                                                   |
+|models/engine                   |__init__.py,  file_storage.py                                       |
+|tests                           |__init__.py                                                         |
+|tests/test_models               |__init__.py, test_amenity.py, test_base_model.py, test_city.py,
+                                  test_place.py, test_review.py, test_state.py, test_user.py          |
+|tests/test_models/test_engine   |__init__.py, test_file_storage.py                                   |
+|AUTHORS                         |                                                                    |
+|README.md                       |                                                                    |
+|console.py                      |__init__.py                                                         |
+
+# **USAGE** :memo:
+
+* Our command interpreter will work following these steps:
+
+> Step 1: Clone our repository using this command, (you need to have git installed on your machine first):
+```
+https://github.com/Qcarvalhooliveira/holbertonschool-AirBnB_clone.git
+```
+> Step 2: Change directory to :
+```
+cd holbertonschool-AirBnB_clone
+```
+> Step 3: Run the command interpreter:
+```
+./console.py
+```
+Exiting the command interpreter when you want to exit, you can use one of the following methods:
+
+
+> 1: Type the command "quit"
+```
+quit
+```
+> 2: Press on Ctrl + D
+
+# **EXEMPLE**
+
+```
+queise@DESKTOP-AHLKCP0:~/holbertonschool-AirBnB_clone$ ls
+AUTHORS    __init__.py  file.json            models              test_base_model_dict.py         tests
+README.md  console.py   generate_authors.sh  test_base_model.py  test_save_reload_base_model.py
+queise@DESKTOP-AHLKCP0:~/holbertonschool-AirBnB_clone$
+```
+
+# **Testing** :warning:
+
+* Our shell should work like this in interactive mode:
+
+```
+queise@DESKTOP-AHLKCP0:~/holbertonschool-AirBnB_clone$ ./console.py
+(hbnb) help
+
+Documented commands (type help <topic>):
+========================================
+EOF  all  create  destroy  help  quit  show  update
+
+(hbnb)
+(hbnb)
+(hbnb) quit
+queise@DESKTOP-AHLKCP0:~/holbertonschool-AirBnB_clone$
+```
+
+* But also in non-interactive mode:
+
+```
+
+## **Tasks** :books:
 
 * ## **0. README, AUTHORS**
 ```
@@ -75,4 +145,3 @@ This method will be the first piece of the serialization/deserialization process
 ## **AUTHORS** :black_nib:
 
 * **Queise Carvalho de Oliveira** - [Queise Carvalho de Oliveira](https://github.com/Qcarvalhooliveira)
-* **Arez Ait Kettout** - [Arez Ait Kettout](https://github.com/Wayzer2318)
