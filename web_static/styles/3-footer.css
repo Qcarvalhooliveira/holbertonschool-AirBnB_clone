@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-top: 1px solid #CCCCCC ;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+}
+
+
+
+
